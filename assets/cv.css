@@ -1,0 +1,116 @@
+/*CSs CV */
+@font-face {
+    font-family: 'calligraffitiregular';
+    src: url('fonts/Calligraffiti-webfont.eot');
+    src: url('fonts/Calligraffiti-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Calligraffiti-webfont.woff2') format('woff2'),
+         url('fonts/Calligraffiti-webfont.woff') format('woff'),
+         url('fonts/Calligraffiti-webfont.ttf') format('truetype'),
+         url('fonts/Calligraffiti-webfont.svg#calligraffitiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+.contact{
+	background-color: rgb(233, 219, 138);
+    background: radial-gradient(yellow,brown);
+    background: gr;
+	height: 300px;
+	width: 300px;
+}
+.adresse{
+	font-size: 1.3rem;
+	padding: 20px;
+}
+
+.main
+{
+	/*Utilisation de la police calligraffiti sur toute la page*/
+	background-image: url(images/greyzz.png);
+
+}
+body p{
+    text-align: center;
+}
+
+body h1{
+    padding: 40px;
+    text-align: center;
+}
+
+.cda{
+	margin-left: 35rem;
+	text-align: center;
+	color: green;
+    text-align: center;
+	width: 45rem;
+}
+
+
+h1
+{
+	font-size: 3.5em;
+	font-family: verdana;
+	text-shadow: 5px 5px 10px green;
+}
+
+.expert
+{
+	font-family: calligraffitiregular;
+	color: green;
+	font-weight: bolder;
+}
+.comp
+{
+	font-family: calligraffitiregular;
+	font-size: larger;
+	text-align: center;
+	font-weight: bolder;
+	background-color: rgba(255,69,0,0.5);
+	border: 7px orange ridge;
+	box-shadow: 7px 7px 7px orange;
+}
+.fondEcran
+{/* On met en place le fond d'écran */
+	min-height: 100%;
+	min-width: 1024px;
+	 width: 100%;
+	 height: auto;
+	 position: fixed;
+	 top: 0;
+	 left: 0;
+	 opacity: 0.3;
+}
+h2
+{
+	font-weight: bold;
+	background-color: rgba(255,69,0,0.5);
+	border: 7px orange ridge;
+	box-shadow: 7px 7px 7px orange;
+}
+h3
+{
+	font-weight: bold;
+	background-color: rgba(0,255,0,0.5);
+	border: 7px green solid;
+	box-shadow: 7px 7px 7px green;
+}
+a:hover
+{
+	font-weight: bold;
+}
+img
+{
+    float: center;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+
+.pagination{
+    padding-left: 200px;
+}

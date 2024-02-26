@@ -1,0 +1,195 @@
+
+
+/* ******************************► Fil d' Ariane ******************************************** */
+
+.flexible nav li{
+	display: inline-block;
+	padding: 20px;
+
+	
+}
+
+.flexible nav ul li a{
+	color: maroon;
+	text-decoration: none;
+	
+}
+.flexible a{
+	color: white;
+}
+
+.flexible{
+	width: 50%;
+	display: flex;
+	justify-content: space-evenly;
+}
+/* ****************************** ◄ Fil d' Ariane ******************************************** */
+
+/* *******************************► Header**************************** */
+
+header.theHeader{
+	height: 120px;
+	width: 80%;
+	background: linear-gradient(to right, #35005e, #3501e0 , #037ee9 , #008000 , #ffff00 , #ffa500 , #ff0000 );
+	padding-bottom: 30px;
+	border: solid 5px #0f0;
+	box-shadow: 0px 0px 200px 50px orange;
+	text-shadow: -1px 0 black, 0 1px black, 10px 0 black, 0 -1px black; /*Left/Bottom/Right/Top*/
+	margin: 2rem ;
+}
+header.theHeader > h1{
+	margin-top: 10px;
+	font-size: 5rem ;
+	color: #fff;
+	text-align: center;
+}
+
+
+/* *******************************◄ Header**************************** */
+
+/* *************************** ►  NAV*********************************************** */
+nav ul{
+	list-style-type: none;
+}
+nav li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+
+}
+nav ul::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+nav li{
+		background-color: #ffe500;
+
+}
+nav{
+	width: 90%;
+	height: 100px;
+	margin: auto;
+	position: sticky;
+	top: 0px;
+	/*‼border: solid black 1px;*/
+}
+nav a{
+    font-size: 2rem;
+	display: block;
+	text-decoration: none;
+	color: black;
+	border: solid 1px red;
+	border-radius: 10px;
+	padding: 10px 10px;
+
+}
+nav a:hover{
+	color: green;
+	border-bottom: 5px solid green;
+}
+
+
+
+div p{
+	color: red;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+
+
+/* *********************** ◄ NAV********************************************** */
+
+/* ********************************* ► BODY***************************************** */
+
+body{
+
+
+
+	background-image: url("../images/deepSpace.jpg");
+	opacity: 0.9;
+
+}
+
+h1
+{
+	font-size: 2.5em;
+	font-family: verdana;
+	text-shadow: 5px 5px 10px green;
+}
+
+.expert
+{
+	font-family: calligraffitiregular;
+	color: green;
+	font-weight: bolder;
+}
+.comp
+{
+	font-family: calligraffitiregular;
+	text-align: center;
+	font-weight: bolder;
+	background-color: rgba(29, 12, 6, 0.5);
+	border: 7px orange ridge;
+	box-shadow: 7px 7px 7px orange;
+}
+.fondEcran
+{/* On met en place le fond d'écran */
+	min-height: 100%;
+	min-width: 1024px;
+	 width: 100%;
+	 height: auto;
+	 position: fixed;
+	 top: 0;
+	 left: 0;
+	 opacity: 0.3;
+}
+h2
+{
+	font-weight: bold;
+	background-color: rgba(255,69,0,0.5);
+	border: 7px orange ridge;
+	box-shadow: 7px 7px 7px orange;
+}
+h3
+{
+	font-weight: bold;
+	background-color: rgba(0,255,0,0.5);
+	border: 7px green solid;
+	box-shadow: 7px 7px 7px green;
+}
+a:hover
+{
+	font-weight: bold;
+}
+img
+{
+    float: center;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+
+.pagination a{
+	color: black;
+}
+
+/* ******************************************► CARDS*********************************** */
+
+.card img{
+	width: 150px;
+	height: 150px;
+	margin-top: 10px;
+}
+
+
+
+/* ****************************************** ◄ CARDS*********************************** */
+
+.real img{
+	padding-top: 0px;
+	margin-top: 0px;
+	height: auto;
+}
+
