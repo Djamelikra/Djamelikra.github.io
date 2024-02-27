@@ -13,6 +13,10 @@
 
 
 
+/*no underline links*/
+/* .htttpLink{
+	text-decoration:none; 
+} */
 
 
 
@@ -100,9 +104,14 @@ h3
 	border: 7px green solid;
 	box-shadow: 7px 7px 7px green;
 }
+
+a{
+	text-decoration:none;
+}
+
 a:hover
 {
-	font-weight: bold;
+	font-weight: bolder;
 }
 img
 {
@@ -113,4 +122,8 @@ img
 
 .pagination{
     padding-left: 200px;
+}
+
+.success{
+	color: green;
 }
